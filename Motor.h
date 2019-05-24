@@ -8,7 +8,7 @@ class Motor{
         string configuracion;
     public:
         bool isElectrico();
-        string getConfiguracion;
+        string getConfiguracion();
         Motor(bool,string);
 };
 #endif

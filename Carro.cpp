@@ -2,7 +2,7 @@
 
 Carro::Carro(string Modelo){
     modelo=Modelo;
-    numero=0;
+    num=0;
     chasis=NULL;
     pintura=NULL;
     motor=NULL;
@@ -13,21 +13,21 @@ string Carro::getModelo(){
 int Carro::getNum(){
     return num;
 }
-Chasis Carro::getChasis(){
+Chasis* Carro::getChasis(){
     return chasis;
 }
-void Carro::setChasis(Chasis chasis1){
+void Carro::setChasis(Chasis* chasis1){
     chasis=chasis1;
 }
-Pintura Carro::getPintura(){
+Pintura* Carro::getPintura(){
     return pintura;
 }
-void Carro::setPintura(Pintura pintura1){
+void Carro::setPintura(Pintura* pintura1){
     pintura=pintura1;
 }
-Motor Carro::getMotor(){
+Motor* Carro::getMotor(){
     return motor;
 }
-void Carro::setMotor(Motor motor1){
+void Carro::setMotor(Motor* motor1){
     motor=motor1;
 }

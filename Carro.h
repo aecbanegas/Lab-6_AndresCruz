@@ -9,19 +9,19 @@ class Carro{
     private:
         string modelo;
         int num;
-        Chasis chasis;
-        Pintura pintura;
-        Motor motor;
+        Chasis* chasis;
+        Pintura* pintura;
+        Motor* motor;
     public:
         string getModelo();
         int getNum();
         void setNum(int);
-        Chasis getChasis();
-        void setChasis(Chasis);
-        Pintura getPintura();
-        void setPintura(Pintura);
-        Motor getMotor();
-        void setMotor(Motor);
+        Chasis* getChasis();
+        void setChasis(Chasis*);
+        Pintura* getPintura();
+        void setPintura(Pintura*);
+        Motor* getMotor();
+        void setMotor(Motor*);
         Carro(string);
 
 };
