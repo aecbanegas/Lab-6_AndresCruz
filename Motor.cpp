@@ -8,5 +8,5 @@ string Motor::getConfiguracion(){
 }
 Motor::Motor(bool Electrico,string Configuracion){
     electrico=electrico;
-    configuracion=configuracion;
+    configuracion=Configuracion;
 }

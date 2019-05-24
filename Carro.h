@@ -23,6 +23,7 @@ class Carro{
         Motor* getMotor();
         void setMotor(Motor*);
         Carro(string);
+        string toString();
 
 };
 #endif
